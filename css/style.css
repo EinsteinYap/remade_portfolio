@@ -1701,7 +1701,7 @@ body.light .personal-info ul h6 {
   font-size: 16px;
   line-height: 32px;
   font-family: 'Open Sans', sans-serif;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
 }
 
 .project-info-container.slide-in {
@@ -1717,7 +1717,7 @@ body.light .personal-info ul h6 {
 }
 
 .project-info-container img {
-  width: 100%;
+  width: 50%;
   display: block;
   max-width: calc(100% - 60px);
   margin: 30px auto;
@@ -2478,6 +2478,16 @@ ul.social-intro li a:hover i {
 }
 .section-title{
   color: #2196F3;
+}
+
+.portfolio-img{
+  border: 0.8rem;
+  /* border-color in skin css folder */
+  border-style: ridge;
+  width: 25rem;
+  height: 30rem;
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 @media only screen and (max-width:1024px) {
 	
