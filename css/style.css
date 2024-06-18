@@ -2476,7 +2476,9 @@ ul.social-intro li a:hover i {
 		padding: 0 30px 45px 30px;
 	}
 }
-
+.section-title{
+  color: #2196F3;
+}
 @media only screen and (max-width:1024px) {
 	
   .cd-stretchy-nav {
