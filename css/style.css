@@ -2486,9 +2486,17 @@ ul.social-intro li a:hover i {
   border-style: ridge;
   width: 25rem;
   height: 30rem;
-  /* margin-left: auto;
-  margin-right: auto; */
 }
+.portfolio-box{
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
 @media only screen and (max-width:1024px) {
 	
   .cd-stretchy-nav {
