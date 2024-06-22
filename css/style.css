@@ -1718,10 +1718,10 @@ body.light .personal-info ul h6 {
 
 .project-info-container img {
   width: 20rem;
-  height: 25rem;
+  height: 23rem;
   display: block;
   max-width: calc(100% - 60px);
-  margin: 1.5rem auto;
+  margin: 1rem auto;
   border-radius: 4px;
 }
 
@@ -1857,6 +1857,7 @@ body.light .personal-info ul h6 {
 
 .videocontainer,
 .responsive-video {
+  height: 0 !important;
   max-width: 100%;
   margin: 0 auto;
   border-radius: 4px;
@@ -1873,7 +1874,7 @@ body.light .personal-info ul h6 {
   overflow: hidden;
   width: 100%;
   display: block;
-  margin: 30px auto;
+  margin: 0 auto;
   border-radius: 4px;
 }
 
