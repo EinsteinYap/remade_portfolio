@@ -1717,10 +1717,11 @@ body.light .personal-info ul h6 {
 }
 
 .project-info-container img {
-  width: 50%;
+  width: 20rem;
+  height: 25rem;
   display: block;
   max-width: calc(100% - 60px);
-  margin: 30px auto;
+  margin: 1.5rem auto;
   border-radius: 4px;
 }
 
@@ -1857,7 +1858,7 @@ body.light .personal-info ul h6 {
 .videocontainer,
 .responsive-video {
   max-width: 100%;
-  margin: 30px auto;
+  margin: 0 auto;
   border-radius: 4px;
   display: block;
   max-width: calc(100% - 60px);
