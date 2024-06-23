@@ -1,0 +1,10 @@
+.main-banner-image{
+    background-image: url(../../img/works/when-charlie-mcbutton-lost-power/maxresdefault.jpg);
+}
+
+.mockingjay-images{
+    width: 20rem;
+    height: 25rem;
+    border-width: 5px;
+    border-style: solid;
+}
