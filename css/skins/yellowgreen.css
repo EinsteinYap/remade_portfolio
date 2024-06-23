@@ -24,7 +24,7 @@ body.blog.dark .comments-list .comment-reply:hover,
 .contact-container ul.social-intro li a,
 .navigation li a i,
 .resume-items .item .card-header .year i.fa-caret-right,
-.badges h3 span,
+.badges h3 span,.main-title, .sub-title,.section,
 .chart-bar>.percent  {
 	color: #9acd32;
 }
@@ -99,4 +99,12 @@ body.blog .container-fluid.page-title .content-banner {
 }
 #portfolio-items li a div {
 	background: #9acd32;
+}
+
+.awards li {
+    border-left: 5px solid #9acd32;
+}
+
+.work-award-images,.mockingjay-images{
+	border-color: #9acd32;
 }

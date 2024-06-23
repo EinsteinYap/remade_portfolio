@@ -2025,7 +2025,7 @@ body.blog {
 body.blog .container-fluid.page-title {
   background-repeat: no-repeat;
   background-position: center top;
-  background-image: url(../img/blog/banner.jpg);
+  /* background-image: url(../img/blog/banner.jpg); */
   padding: 0;
   margin-bottom: 60px;
 }
@@ -2478,9 +2478,7 @@ ul.social-intro li a:hover i {
 		padding: 0 30px 45px 30px;
 	}
 }
-.section-title{
-  color: #2196F3;
-}
+
 
 .portfolio-img{
   border: 0.8rem;

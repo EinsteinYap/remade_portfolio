@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+h1, h2, h3 {
+    color: #333;
+}
+.awards, .reviews {
+    margin-bottom: 40px;
+}
+.awards ul {
+    list-style-type: none;
+    padding: 0;
+}
+.awards li {
+    background: #f4f4f4;
+    margin: 5px 0;
+    padding: 10px;
+}
+.review {
+    margin-bottom: 20px;
+}
+.review p {
+    margin: 0;
+}
+
+
+.main-banner{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.main-banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.2); /* Adjust opacity to make it darker or lighter */
+    z-index: 1;
+}
+
+.main-banner > * {
+    position: relative;
+    z-index: 2;
+}
+.main-text{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-shadow:0px 1px 0 rgb(0,0,0),0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0);
+    -webkit-text-shadow:0px 1px 0 rgb(0,0,0),0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0);
+    -moz-text-shadow:0px 1px 0 rgb(0,0,0),0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0);
+    color:rgb(255, 255, 255);
+}
+
+.work-award-images{
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 5rem;
+    width: 10rem;
+    height: 10rem;
+}
