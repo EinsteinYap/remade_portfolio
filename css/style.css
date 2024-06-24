@@ -3030,3 +3030,11 @@ color:rgb(255, 255, 255);
     font-size: 14px;
   }
 }
+
+.blog{
+margin: 0;
+}
+
+.line-height-150 {
+  line-height: 3rem !important;
+}

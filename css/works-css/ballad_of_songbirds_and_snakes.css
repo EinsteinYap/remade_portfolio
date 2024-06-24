@@ -1,0 +1,10 @@
+.main-banner-image{
+    background-image: url(../../img/works/ballad_of_songbirds_and_snakes/The_Hunger_Games_The_Ballad_Of_Songbirds_And_Snakes.jpg);
+}
+
+.mockingjay-images{
+    width: 20rem;
+    height: 25rem;
+    border-width: 5px;
+    border-style: solid;
+}
